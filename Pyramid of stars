@@ -1,0 +1,40 @@
+/*
+ 
+Description :
+Prints out the stars in Pyramid shape.
+Author : K.R.Nandhakumar
+Mail id :krnandhakumar@gmail.com
+ 
+*/
+ 
+ 
+#include<stdio.h> /*header files */
+#include<conio.h>
+ 
+void main()
+{
+int i,j,k,n;
+printf("\nEnter Range :");
+scanf("%d",&n);
+for(i=1;i<=n;i++) /*loop1 for number of lines of stars*/
+{
+for(j=n-1;j>=i;j--) /*loop2 for spacing*/
+printf(" ");
+for(k=i;k>=1;k--) /*loop3 for printing stars in leftside right angle triangle*/
+printf("*");
+for(k=1;k<i;k++) /*loop4 for printing stars in right side right angle triangle*/
+printf("*");
+printf("\n");
+}
+}
+
+
+
+/* Output :
+Enter Range : 5
+*
+***
+*****
+*******
+*********
+*/
