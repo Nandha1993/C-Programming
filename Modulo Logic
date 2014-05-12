@@ -29,7 +29,7 @@ counter++; /* if 7 is present counter is incremented to 1 */
 j=j/10;
 }
 }
-printf("No of 7 between %d to %d is %d",from,to,counter-1);
+printf("No of 7 between %d and %d is %d",from,to,counter-1);
 }
  
  
@@ -41,6 +41,6 @@ Enter Range
  
 100 1000
  
-No of 7 between 100 t0 1000 is 279
+No of 7 between 100 and 1000 is 279
  
 /**********THANKS************/
