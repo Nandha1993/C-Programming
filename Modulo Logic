@@ -7,31 +7,9 @@ File Name : An Example of modulo logic.
 Author : K.R.Nandhakumar
  
 Email id : krnandhakumar@gmail.com
- 
-*/
- 
- 
-#include<stdio.h> /* Header files */
-#include<conio.h>
- 
-void main()
+ int main()
 {
-int i,j,counter=0,from,to;
-printf(" Enter Range ");
-scanf("%d%d",&from,&to); /* Getting range */
-for(i=from;i<=to;i++) /* Program logic starts here */
-{
-j=i;
-while(j!=0) /*The modulo operator(%) returns remainder while divide operator (/) returns quotient */
-{
-if(j%10==7) /* Checking each and every place digits,the presence of 7 */
-counter++; /* if 7 is present counter is incremented to 1 */
-j=j/10;
-}
-}
-printf("No of 7 between %d and %d is %d",from,to,counter-1);
-}
- 
+ int x = 2, y = 3;
  
  
  
